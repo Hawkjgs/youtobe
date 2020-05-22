@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SM_MPNS_LICENSE" directorySegmentName="seg_0" id="4F647BE6-1207-F724-D27C-40201AEE3ED8">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<schemaObject>7613F1E4-1B63-30C2-9FB9-58F10B633A77</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6F8859A9-94B0-7D97-B1C5-D5A915CA1761</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="START_DT" id="054F3ACC-CFA2-D02F-86DD-B07E607F10F7">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIC_OUTPUT" id="14F81152-08EE-FD46-8ECF-C8B751563F10">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_DT" id="2544F660-7236-7231-58AE-D67F4AE366A2">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_NM" id="30262236-E64D-05CF-69A0-7EBC63F98BAA">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIC_INPUT" id="33BCEC85-80B9-E31E-2579-B93E4BD0A2F1">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIC_TITLE" id="341B54DF-DDF2-5AB3-2C2B-DCD14A66A7DA">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_ID" id="615819FF-C3CC-5F11-9F54-EFD2269C3405">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIC_TYPE" id="8B6639A2-2948-E005-D7B3-10C69B9F5C7A">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD_ID" id="9DD4DCD7-3B42-E363-1F7A-7A084F0637E8">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAC" id="A9DC04FA-B960-F324-DE34-DE8EC3ACC464">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMO" id="B27D820E-2383-69CF-4C11-BD9F0185C905">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DT" id="C40D22CC-3931-E047-8E81-43F5784B6D57">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD_DT" id="C89C1CC5-5B46-2DC8-F158-CDE5533EE550">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SITE_SEQ" id="CFE67F4A-4BB0-78E0-BFF5-C1847BEF6B42">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IP" id="D2B6B551-568E-41F5-670C-2C2B7A59B510">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD_NM" id="E69FAB5F-7AC8-F56B-1754-530DE2BE3CF1">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEQ" id="EB50CD7F-102A-BCDD-EE1F-FCE819ED2409">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIC_GUBUN" id="F905A3CD-5134-6A53-8B7E-CB84AA1E0D84">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SM_MPNS_LICENSE" id="58492D59-E880-69FB-78D2-B5745839E7B6">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<schemaObject>7613F1E4-1B63-30C2-9FB9-58F10B633A77</schemaObject>
+<segment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SM_MPNS_LICENSE" id="66F01DBD-C765-F360-9BAF-D44760CAD378">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<segment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+<existingIndex>58492D59-E880-69FB-78D2-B5745839E7B6</existingIndex>
+<indexSegment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

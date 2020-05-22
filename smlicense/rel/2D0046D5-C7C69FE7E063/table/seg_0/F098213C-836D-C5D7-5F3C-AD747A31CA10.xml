@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F098213C-836D-C5D7-5F3C-AD747A31CA10" schemaObject="7613F1E4-1B63-30C2-9FB9-58F10B633A77" name="SM_USER">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SMLICENSE</sourceObjSchema>
+<sourceObjName>SM_USER</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리자 정보]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ" id="D7C9CB41-09F9-8266-80C8-CA7B458BD166">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>SEQ</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[일련번호]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="3E56A05D-850B-5729-C174-F9FA811538AB">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[사용자아이디]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_PASS" id="66DFDD02-6FB6-09C2-A1F3-8FEBF2D10DC2">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>USER_PASS</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[사용자비밀번호]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="2623C59A-B0C2-896B-4642-F8B28124E21F">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[사용자이름]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_LVL" id="5A95579F-7C9F-807F-9583-5E62E7702A76">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>USER_LVL</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[권한]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_DT" id="24074E2A-5482-7843-C3F3-D2D5230D4329">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>REG_DT</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록일]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOD_DT" id="EC73F29D-93CE-E1AE-0690-6EBA26345A09">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>MOD_DT</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정일]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_ID" id="DEC214A3-554B-5A84-1E7B-A6A0648BFA04">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>REG_ID</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 아이디]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NM" id="E627A4D7-D861-DA47-D3E5-E245593B8B95">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>REG_NM</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자 이름]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="518E270A-829D-DA39-ECB9-BB8C5C9A181C">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[상태]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_EMAIL" id="85C7350F-DE12-1020-FC35-D0F2903D5AA9">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>USER_EMAIL</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[사용자 이메일]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOD_ID" id="D6512BB4-F9FA-4DF7-2057-77CC505924B6">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>MOD_ID</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정자 아이디]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOD_NM" id="48C4AD3A-E5FD-429B-82BB-C1B3B13B1255">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjSchema>SM_USER</sourceObjSchema>
+<sourceObjName>MOD_NM</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[수정자 이름]]></commentInRDBMS>
+<ownerDesignName>smlicense</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

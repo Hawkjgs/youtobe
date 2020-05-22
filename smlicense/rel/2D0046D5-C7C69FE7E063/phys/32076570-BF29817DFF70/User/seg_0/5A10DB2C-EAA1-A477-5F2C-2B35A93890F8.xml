@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SMLICENSE" directorySegmentName="seg_0" id="5A10DB2C-EAA1-A477-5F2C-2B35A93890F8">
+<sourceConnName>smlicense</sourceConnName>
+<sourceObjName>SMLICENSE</sourceObjName>
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<schemaObject>7613F1E4-1B63-30C2-9FB9-58F10B633A77</schemaObject>
+</UserOraclev10g>

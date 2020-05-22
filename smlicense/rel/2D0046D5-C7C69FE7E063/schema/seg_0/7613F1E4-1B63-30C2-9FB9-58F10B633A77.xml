@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SMLICENSE" directorySegmentName="seg_0" id="7613F1E4-1B63-30C2-9FB9-58F10B633A77">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</SchemaObject>

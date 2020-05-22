@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SM_MPNS_SITE" directorySegmentName="seg_0" id="8050BA8E-3B92-6AF8-154C-C8FC562B646A">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<schemaObject>7613F1E4-1B63-30C2-9FB9-58F10B633A77</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6F8859A9-94B0-7D97-B1C5-D5A915CA1761</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REG_DT" id="06A648CF-A750-FA44-0BF1-865FDB10640D">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PART_NM" id="35435AD5-4507-9BFA-C463-2320A6DB4706">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_NM" id="3DF8BD4E-30DF-40F1-AFFD-3222F160F186">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_ID" id="4E94710A-4F55-AD51-6CBB-697526D0E530">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APP_MEMO" id="6AE8818B-4744-438F-8C24-666D65398B4C">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEQ" id="807C106D-E51C-70BF-138A-D97EB7E434C1">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_NM" id="87CFEB1A-808D-89FF-261C-80A33F3A5B22">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_EMAIL" id="DE26421E-761A-36C0-6389-7A63DB658C15">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PART_TEL" id="E3F0DDF0-D66A-A7BA-61DD-4D8801F9F669">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SITE_CODE" id="E9A785FD-E3C2-F2D1-151B-DD27A39D6244">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SITE_TITLE" id="F3D0F7BA-9D36-92A3-523F-210204D4AB6A">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_TEL" id="F7651E27-4225-600A-509C-0B6A6DDD924F">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SM_MPNS_SITE" id="A653C327-7EC7-524D-C975-FD17671E15CD">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<schemaObject>7613F1E4-1B63-30C2-9FB9-58F10B633A77</schemaObject>
+<segment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SM_MPNS_SITE" id="88D8F02E-E823-0B84-5D79-4C6366C1A4F3">
+<createdBy>hawkjgs</createdBy>
+<createdTime>2020-05-22 02:06:52 UTC</createdTime>
+<ownerDesignName>smlicense</ownerDesignName>
+<segment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</segment>
+<tableSpace>7276A170-4298-3CA7-49B1-453E25843BD1</tableSpace>
+<existingIndex>A653C327-7EC7-524D-C975-FD17671E15CD</existingIndex>
+<indexSegment>96CFD1A2-846E-7319-C8A2-C7093AC8AB4F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
